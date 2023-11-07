@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+@keyframes textZoom {
+    from {
+        font-size: 16px; /* Initial font size */
+    }
+    to {
+        font-size: 60px; /* Final font size */
+    }
+}
+
+
+body {
+   color: white;
+  
+    background-color: black;
+
+}
+
+h1 {
+    color: deeppink;
+    font: ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poster-container {
+    margin-top: 20px;
+  }
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    font: ;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: black;
+    color: deeppink;
+    border: none;
+    cursor: pointer;
+    border: 7px solid deeppink;
+}
+
+
+#logo-image {
+  width: 900px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.2s ease;
+}
+
+#logo-image:hover {
+  transform: scale(1.1);
+}
+
+/* Scroll Container Styles */
+.scroll-container {
+    width: 100%; /* Set the width as needed */
+    height: 600px; /* Set the height as needed */
+    overflow: hidden;
+    
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+/* Customize Scrollbar (optional) */
+.content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.zoom-image{
+    width: 100%;
+    height: 180%;
+     
+}
+
+
+#scrolling-text {
+font-family: 'Josefin Sans', sans-serif;
+      text-align: center;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 30px; 
+}
+
+.charecter-container{
+    float: left;
+    width: 198px;
+    height: auto;
+
+
+}
+
+.charecter123{
+float: left;
+    width: 200px;
+    height: 700px;
+
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
